@@ -90,9 +90,9 @@
             <li class="nav-item">
               <button class="nav-link" data-bs-toggle="tab" data-bs-target="#profile-change-passwor">Edit Family Background</button>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <button class="nav-link" data-bs-toggle="tab" data-bs-target="#profile-set">Status View</button>
-            </li>
+            </li> -->
 
           </ul>
           <div class="tab-content pt-2">
