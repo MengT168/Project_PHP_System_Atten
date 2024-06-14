@@ -339,20 +339,20 @@ if (isset($_GET['op']))
         </section>
     </main>
 </body>
-<script>
-    document.getElementById('searchBtn').addEventListener('click', function(event) {
-        event.preventDefault(); 
+    <script>
+        document.getElementById('searchBtn').addEventListener('click', function(event) {
+            event.preventDefault(); 
 
-        // Get the selected values
-        var program = document.getElementById('program').value;
-        
-        // Construct the URL with the selected values
-        var url = '?tag=schedule&op=search';
-        url += '&program=' + encodeURIComponent(program);
-        
-        window.location.href = url;
-    });
-</script>
+            // Get the selected values
+            var program = document.getElementById('program').value;
+            
+            // Construct the URL with the selected values
+            var url = '?tag=schedule&op=search';
+            url += '&program=' + encodeURIComponent(program);
+            
+            window.location.href = url;
+        });
+    </script>
 </html>
 
 <?php
